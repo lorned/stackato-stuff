@@ -1,0 +1,6 @@
+INPUT: list of files culled from patch directory:
+cd <get-stackato-path>/static/kato-patch/<version/
+grep -r -h "+++" . | awk '{print $2}' (output to some file)
+sort -u files > files2 (Removes duplicates)
+
+EXECUTE: sh gen-md5.sh | awk '{print $1}' > hashes
