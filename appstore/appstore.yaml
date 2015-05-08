@@ -3,7 +3,7 @@ store:
   contact: Lorne Dixon <lorned@activestate.com>
   icon: https://get.stackato.com/store/icon/third-party.png
 apps:
-  name: Hello Go
+- name: Hello Go
   id: helloworld-go
   desc: Helloworld app for Golang
   framework: go
